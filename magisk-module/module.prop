@@ -1,6 +1,6 @@
-id=example_module
-name=Example module
-author=HuskyDG
+id=isodrive
+name=Isodrive
+author=Marcel Alexandru Nitan
 version=1.0
 versionCode=1
-description=module that add some stuff
+description=Use your mobile device to boot Linux distributions/ISO files on your PC
