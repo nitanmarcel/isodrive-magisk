@@ -1,6 +1,8 @@
 # isodrive (configfs)
 
-* `apt install build-essential`
+## Building
+
+* `sudo apt install build-essential`
 
 * `git clone https://github.com/nitanmarcel/isodrive`
 
@@ -8,34 +10,27 @@
 
 * `make`
 
-* `make install` (optional)
+* `sudo make install` (optional)
 
-usage:
+## Usage
 
-* `isodrive {iso} {cdrom[0/1]} {readonly[1/0]}`
+Run `su` to be able to access and use the `isodrive` command.
 
-mount
+```
+cdrom [FILE]... [OPTION]...
+Mounts the given FILE as a bootable device using configfs.
+Run without any arguments to unmount any mounted files and to display this help message.
 
-* `isodrive /full/path/to/file.iso`
-
-umount
-
-* `isodrive`
-
-mount (as cdrom)
-
-* `isodrive /full/path/to/file.iso 1 1`
-
-mount (as read write)
-
-* `isodrive /full/path/to/file.iso 0 0`
-
-## Termux
-
-* Run `su` before using isodrive command
+Optional arguments:
+-rw	 Mounts the file in read write mode.
+-cdrom	 Mounts the file as a cdrom.
+```
 
 ## Os Support
 * _Should support almost every bootable OS images, but for those who don't work or need extra steps, are documented in the [WIKI](https://github.com/nitanmarcel/isodrive/wiki)_
+
+## Source Code
+* https://github.com/nitanmarcel/isodrive-magisk
 
 ## Credits
 

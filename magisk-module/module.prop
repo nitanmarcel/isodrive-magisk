@@ -1,6 +1,6 @@
 id=isodrive
 name=Isodrive
 author=Marcel Alexandru Nitan
-version=1.0
-versionCode=1
+version=1.1
+versionCode=11
 description=Use your mobile device to boot Linux distributions/ISO files on your PC
