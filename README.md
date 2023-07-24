@@ -17,7 +17,7 @@
 Run `su` to be able to access and use the `isodrive` command.
 
 ```
-cdrom [FILE]... [OPTION]...
+isodrive [FILE]... [OPTION]...
 Mounts the given FILE as a bootable device using configfs.
 Run without any arguments to unmount any mounted files and to display this help message.
 
