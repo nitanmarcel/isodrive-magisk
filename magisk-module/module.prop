@@ -1,6 +1,7 @@
 id=isodrive
 name=Isodrive
 author=Marcel Alexandru Nitan
-version=1.2
-versionCode=12
+version=v1.2.1
+versionCode=10201
 description=Use your mobile device to boot Linux distributions/ISO files on your PC
+updateJson=https://raw.githubusercontent.com/nitanmarcel/isodrive-magisk/master/magisk-module/update.json
