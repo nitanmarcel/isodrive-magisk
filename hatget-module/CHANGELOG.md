@@ -1,3 +1,5 @@
+v1.2.2
+- removed the isodrive submodule and renamed it to hatget
 v1.2.1
 - added update.json function
 v1.2

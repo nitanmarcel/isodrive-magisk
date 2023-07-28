@@ -2,6 +2,7 @@
 *.zip
 *.so
 *.dex
+libs/
 
 # VS Code Java Language Server
 .settings/

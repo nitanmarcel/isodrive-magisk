@@ -2,12 +2,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/isodrive/src/include
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/hatget/src/include
 
-LOCAL_MODULE := isodrive
+LOCAL_MODULE := hatget
 LOCAL_SRC_FILES := \
-	isodrive/src/util.cpp \
-	isodrive/src/configfsisomanager.cpp \
-	isodrive/src/main.cpp
+	hatget/src/util.cpp \
+	hatget/src/configfsisomanager.cpp \
+	hatget/src/main.cpp
 
 include $(BUILD_EXECUTABLE)

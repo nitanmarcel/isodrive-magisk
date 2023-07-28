@@ -1,6 +1,3 @@
 [submodule "native/jni/libcxx"]
 	path = native/jni/libcxx
 	url = https://github.com/huskydg/libcxx.git
-[submodule "native/jni/isodrive"]
-	path = native/jni/isodrive
-	url = https://github.com/nitanmarcel/isodrive

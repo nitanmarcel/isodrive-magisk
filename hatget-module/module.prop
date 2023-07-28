@@ -1,0 +1,7 @@
+id=hatget
+name=hatget
+author=Marcel Alexandru Nitan modded by NewBit @ XDA
+version=v1.2.2
+versionCode=10202
+description=Use your mobile device to boot Linux distributions/ISO files on your PC the Gatget Hatchet
+updateJson=https://raw.githubusercontent.com/newbit1/hatget/master/hatget-module/update.json

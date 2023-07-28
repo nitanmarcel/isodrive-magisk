@@ -17,6 +17,10 @@ popd
 
 rm -rf out
 mkdir -p out
-cp -af magisk-module out
-mv -fT native/libs out/magisk-module/libs
-zip -r9 out/magisk-module-release.zip out/magisk-module
+cp -af hatget-module out
+mv -fT native/libs out/hatget-module/libs
+
+cd out/hatget-module
+MODULE_TARGET_ZIP="../hatget-$(sed -n 's/^version=//p' module.prop).zip"
+zip -r9 -X $MODULE_TARGET_ZIP * -x \.* libs/\.*
+cd -
