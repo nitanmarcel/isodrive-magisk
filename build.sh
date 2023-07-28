@@ -15,7 +15,7 @@ fi
 ndk-build -j4 NDK_DEBUG=$debug_mode
 popd
 
-rm -rf out
+rm -rf out/*
 mkdir -p out
 cp -af hatget-module out
 mv -fT native/libs out/hatget-module/libs

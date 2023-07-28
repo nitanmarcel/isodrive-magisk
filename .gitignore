@@ -3,6 +3,7 @@
 *.so
 *.dex
 libs/
+out/
 
 # VS Code Java Language Server
 .settings/
@@ -18,3 +19,4 @@ libs/
 .cxx
 local.properties
 *.sha256
+
