@@ -1,3 +1,5 @@
+v1.2.3
+- changed write order: write file is now the last flag to write
 v1.2.2
 - removed the isodrive submodule and renamed it to hatget
 v1.2.1

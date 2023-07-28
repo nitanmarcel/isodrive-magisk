@@ -20,6 +20,7 @@ ui_print ""
 ui_print "  hatget ${VERSION} on $ABI          "
 ui_print "  Use your mobile device to boot Linux "
 ui_print "  distributions/ISO files on your PC   "
+ui_print "  the Gatget Hatchet                   "
 ui_print ""
 
 if $BOOTMODE; then
