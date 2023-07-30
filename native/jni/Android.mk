@@ -8,6 +8,7 @@ LOCAL_MODULE := isodrive
 LOCAL_SRC_FILES := \
 	isodrive/src/util.cpp \
 	isodrive/src/configfsisomanager.cpp \
+	isodrive/src/androidusbisomanager.cpp \
 	isodrive/src/main.cpp
 
 include $(BUILD_EXECUTABLE)
