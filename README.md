@@ -32,9 +32,12 @@ Optional arguments:
 ## Os Support
 * _Should support almost every bootable OS images, but for those who don't work or need extra steps, are documented in the [WIKI](https://github.com/nitanmarcel/isodrive/wiki)_
 
+## Download
+The only officially maintained versions by me are available on [github releases](https://github.com/nitanmarcel/isodrive-magisk/releases/) and [Magisk-Modules-Alt-Repo](https://github.com/Magisk-Modules-Alt-Repo). I assume no liability for any downloads  originating from unofficial sources.
+
 ## Source Code
 * https://github.com/nitanmarcel/isodrive-magisk
-
+* 
 ## Credits
 
 Inspired by https://github.com/fredldotme/ISODriveUT
